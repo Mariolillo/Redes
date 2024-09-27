@@ -1,6 +1,13 @@
 #from pysnmp.hlapi import *
 from pysnmp.hlapi import getCMD,SnmpEngine,CommunityData,UdpTransportTarget,ContextData,ObjectType
 
+
+#Deployment
+name='mario'
+ips
+oid=''
+
+
 iterator = getCmd(
     SnmpEngine(),    CommunityData('public', mpModel=0),  #nombre de la comunidad viendolo desde el router
     UdpTransportTarget(('192.168.x.x', 161)),#host,puerto
